@@ -40,3 +40,24 @@ let isString = 50
 let conString = String(isString)
 console.log(conString);
 console.log(typeof conString);
+
+// ****** Operations ******
+
+let value = 9
+let negValue = -value
+console.log(negValue);
+
+// Basic operation 
+console.log(10+5);
+console.log(10-5);
+console.log(10*5);
+console.log(10**5);
+console.log(10/5);
+console.log(10%5);
+
+// concatenation 
+let str1 = "Hello"
+let str2 = " Bangladesh"
+let str3 = str1 + str2
+console.log(str3);
+
