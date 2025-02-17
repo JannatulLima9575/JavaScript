@@ -4,7 +4,8 @@ const hena = {
     relationshipStatus : false,
     friends : ['Rohim', 'Korim', 'Joba'],
     fatherName : "Abul",
-    motherName : "Asma Khatun"
+    motherName : "Asma Khatun",
+    100 : "Thousand"
 }
 console.log(hena);
 
@@ -20,3 +21,7 @@ console.log(key);
 const value = Object.values(hena); // print for values
 // const value = Object.values(hena).length;
 console.log(value);
+
+const henaThousand = hena[100]
+console.log(henaThousand );
+
